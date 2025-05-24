@@ -135,3 +135,17 @@
 .news-list .text {
   flex: 1;
 }
+.section-contact {
+  padding: 100px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.section-contact h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.google-form iframe {
+  border: none;
+}
