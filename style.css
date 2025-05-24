@@ -19,10 +19,9 @@
 }
 
 /* ロゴ */
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 2px;
+.logo img {
+  height: 40px; /* お好みでサイズ調整可能 */
+  display: block;
 }
 
 /* ナビゲーション */
