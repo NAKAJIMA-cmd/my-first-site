@@ -1,17 +1,46 @@
-body {
-  background-color: #f0f8ff;
-  font-family: 'Helvetica', sans-serif;
+/* ヘッダー全体 */
+.site-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* ヘッダー内の中央揃え */
+.site-header .inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ロゴ */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* ナビゲーション */
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+.site-nav a {
+  text-decoration: none;
   color: #333;
-  text-align: center;
-  padding: 50px;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-h1 {
-  color: #0066cc;
-  font-size: 2.5em;
-}
-
-p {
-  font-size: 1.2em;
-  margin-top: 20px;
+.site-nav a:hover {
+  color: #007bff;
 }
